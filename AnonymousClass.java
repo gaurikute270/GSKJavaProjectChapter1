@@ -1,11 +1,11 @@
-class Number1{
+class Number{
     public void Display(){
         System.out.println("i am in number");
     }
 }
      class AnonymousClassDemo{
         public void createc(){
-            Number1 n= new Number1(){
+            Number n= new Number(){
                 public void Display(){
                     System.out.println("i am in ananoma");
                 }
